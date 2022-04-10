@@ -1,0 +1,164 @@
+.projects-page .hero {
+    background-image: url(/ASSETS/IMAGES/image-6.jpg);
+    background-position: center;
+    padding: 100px 20px;
+    height: 77vh;
+
+    position: relative;
+}
+
+.projects-page h1 {
+    position: absolute;
+    bottom: 20px;
+    left: 170px;
+}
+
+.huawei-content,
+.rhein-content,
+.danske-content,
+.huawei-images,
+.rhein-images,
+.danske-images {
+    display: flex;
+}
+
+.huawei-content,
+.rhein-content,
+.danske-content {
+    margin-bottom: 120px;
+}
+
+.huawei-images,
+.rhein-images {
+    margin-bottom: 210px;
+}
+
+.all-projects.frame {
+    padding: 200px 0 200px 10vw;
+}
+
+.huawei-img1,
+.huawei-img2,
+.rhein-img1,
+.rhein-img2,
+.danske-img1,
+.danske-img2 {
+    height: 430px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.huawei-img1 {
+    background-image: url(/ASSETS/IMAGES/project1-1.jpg);
+}
+
+.huawei-img2 {
+    background-image: url(/ASSETS/IMAGES/project1-3.jpg);
+}
+
+.rhein-img1 {
+    background-image: url(/ASSETS/IMAGES/project2-3.jpg);
+}
+
+.rhein-img2 {
+    background-image: url(/ASSETS/IMAGES/project2-4.jpg);
+}
+
+.danske-img1 {
+    background-image: url(/ASSETS/IMAGES/project5-3.jpg);
+    background-position: bottom;
+}
+
+.danske-img2 {
+    background-image: url(/ASSETS/IMAGES/project5-4.jpg);
+}
+
+.huawei-p,
+.huawei-img2,
+.rhein-p,
+.rhein-img2,
+.danske-p,
+.danske-img2 {
+    margin-left: 30px;
+}
+
+.huawei-content h3,
+.rhein-content h3,
+.danske-content h3 {
+    padding-right: 105px;
+}
+
+.huawei-p,
+.rhein-p,
+.danske-p {
+    padding-right: 190px;
+}
+
+@media (max-width: 920px) {
+    .huawei-content,
+    .rhein-content,
+    .danske-content,
+    .huawei-images,
+    .rhein-images,
+    .danske-images {
+        flex-direction: column;
+    }
+
+    .huawei-p,
+    .huawei-img2,
+    .rhein-p,
+    .rhein-img2,
+    .danske-p,
+    .danske-img2 {
+        margin-left: 0;
+    }
+
+    .all-projects.frame {
+        padding: 70px 20px 70px 20px;        
+    }
+
+
+    .huawei-p,
+    .rhein-p,
+    .danske-p {
+        padding-right: 0;
+    }
+
+    .huawei-img1,
+    .rhein-img1,
+    .danske-img1 {
+        height: 960px;
+        margin-bottom: 20px;  
+    }
+
+    .huawei-img2,
+    .rhein-img2,
+    .danske-img2 {
+        height: 325px;
+    }
+    
+    .huawei-content,
+    .rhein-content,
+    .danske-content,
+    .huawei-content h3,
+    .rhein-content h3,
+    .danske-content h3 {
+        margin-bottom: 40px;
+    }
+    
+    .huawei-images,
+    .rhein-images {
+        margin-bottom: 80px;
+
+    }
+
+    .projects-page .hero {
+        padding: 200px 50px 80px 50px;
+        height: 55vh;
+    }
+
+    .projects-page h1 {
+        left: 80px;
+    }
+}

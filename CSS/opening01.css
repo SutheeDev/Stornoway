@@ -1,0 +1,147 @@
+.opening01-page .hero {
+    background-image: url(/ASSETS/IMAGES/image-13.jpg);
+    background-position: bottom;
+    padding: 100px 20px 0 20px;
+    height: 22vh;
+
+    position: relative;
+}
+
+.opening01.frame {
+    padding: 200px 100px 200px 100px;
+}
+
+.opening01-position span,
+.apply span {
+    display: block;
+    font-size: 48px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+}
+
+.opening01-position p {
+    font-size: 24px;
+    margin-bottom: 160px;
+}
+
+.position-content span {
+    display: block;
+    font-size: 30px;
+    text-transform: capitalize;
+    width: 30%;
+    margin-right: 20px;
+}
+
+.position-content div {
+    display: flex;
+    margin-bottom: 70px;
+}
+
+.position-content p,
+.position-content ul {
+    width: 57%;
+    line-height: 1.5;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+li {
+    margin-bottom: 25px;
+}
+
+.apply {
+    display: flex;
+    height: 500px;
+}
+
+.apply span {
+    width: 30%;
+    margin-right: 20px;
+}
+
+.input {
+    width: 65%;
+    height: 300px;
+}
+
+input {
+    width: 100%;
+    background-color: #e1e1e1;
+    padding: 15px;
+    margin-bottom: 25px;
+    outline: none;
+    border: none;
+}
+
+form input:last-child {
+    height: 100px;
+    margin-bottom: 50px;
+}
+
+input::placeholder {
+    color: #9b9b9b;
+    font-size: 14px;
+}
+
+label {
+    font-size: 18px;
+    display: block;
+    margin-bottom: -17px;
+}
+
+.submit:hover {
+    background-color: rgb(81, 81, 81);
+}
+
+@media (max-width: 920px) {
+    .opening01-page .hero {
+        background-image: none;
+        height: 120px;
+    }
+
+    .opening01.frame {
+        padding: 70px 20px 70px 20px;
+    }
+
+    .opening01-position span {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+
+    .opening01-position p {
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+
+    .position-content span {
+        font-size: 20px;
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .position-content p,
+    .position-content ul {
+        width: 100%;
+    }
+
+    .position-content div {
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+
+    .apply {
+        flex-direction: column;
+    }
+
+    .apply span {
+        font-size: 28px;
+    }
+
+    .input {
+        width: 100%;
+    }
+}

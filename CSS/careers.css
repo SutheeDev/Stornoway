@@ -1,0 +1,98 @@
+.careers-page .hero {
+    background-image: url(/ASSETS/IMAGES/image-13.jpg);
+    background-position: bottom;
+    padding: 100px 20px;
+    height: 77vh;
+
+    position: relative;
+}
+
+.careers-page h1 {
+    position: absolute;
+    bottom: 20px;
+    left: 170px;
+}
+
+.careers-frame {
+    padding: 200px 10vw 200px 10vw;
+}
+
+.open-positions-content span {
+    display: block;
+    font-size: 48px;
+    text-transform: capitalize;
+    margin-bottom: 100px;
+}
+
+.open-positions-content p {
+    font-size: 24px;
+}
+
+.open-positions-content a {
+    font-size: 30px;
+}
+
+.job-1 span,
+.job-2 span,
+.job-3 span {
+    display: block;
+    font-size: 64px;
+    margin-bottom: 20px;
+}
+
+.job-1 a,
+.job-2 a,
+.job-3 a {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.job-1 p,
+.job-2 p {
+    margin-bottom: 120px;
+}  
+
+@media (max-width: 920px) {
+    .careers-page .hero {
+        padding: 200px 50px 80px 50px;
+        height: 55vh;
+    }
+
+    .careers-page h1 {
+        left: 80px;
+    }
+
+    .careers-frame {
+        padding: 70px 20px 70px 20px;
+    }
+
+    .open-positions-content span {
+        font-size: 28px;
+        margin-bottom: 50px;
+    }
+
+    .job-1 span,
+    .job-2 span,
+    .job-3 span {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+    
+    .open-positions-content a {
+        font-size: 20px;
+    }
+    
+    .open-positions-content p {
+        font-size: 20px;
+    }
+
+    .open-positions-content p {
+        margin-bottom: 40px;
+    }
+
+    .job-1 p,
+    .job-2 p,
+    .job-3 p {
+        margin-bottom: 40px;
+    }   
+}

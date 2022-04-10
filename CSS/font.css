@@ -1,0 +1,56 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+span, 
+h1,
+h2 {
+    font-family: 'Hammersmith One', sans-serif;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+.open-positions-content a {
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+.f-white {
+    color: #fff;
+}
+
+.f-black {
+    color: #000;
+}
+
+h1 {
+    font-size: 104px;
+}
+
+h2 {
+    font-size: 72px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+.projects-all p {
+    font-size: 18px;
+}
+
+.service-choices p {
+    font-size: 24px;
+}
+
+.service-choices span {
+    font-size: 64px;
+}
+
+.footer span {
+    font-size: 30px;
+}
+
