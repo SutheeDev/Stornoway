@@ -2,7 +2,7 @@
 
 A mock-up project of Stornoway, a construction company website template powered by Zyro.com
 
-## Genearal Info
+## General Info
 
 This is a training project where I replicated the Stornoway site template to grind my web development mastery. The site itself is simple, clean, and straightforward, so I heavily executed it using HTML and CSS.
 
@@ -19,4 +19,4 @@ This is a training project where I replicated the Stornoway site template to gri
 
 ## Contact
 
-Created by [@Guitaristpeet](https://github.com/Guitaristpeet) - feel free to contact me!
+Created by [@SutheeDev](https://github.com/SutheeDev) - feel free to contact me!
