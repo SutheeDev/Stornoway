@@ -11,6 +11,7 @@ This is a training project where I replicated the Stornoway site template to gri
 - HTML5
 - CSS3
 - JavaScript ES6
+- Basscss
 
 ## Acknowledgements
 
